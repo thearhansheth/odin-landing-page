@@ -1,34 +1,71 @@
+.container {
+  flex-direction: column;
+  margin: auto;
+}
+
 .Section1,
 .footer {
   background-color: #1f2937;
   color: #f9faf8;
 }
 
-.Subtitles {
-}
-
 .Hero {
   display: flex;
+  flex: auto;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  margin: auto;
 }
 
 .logo {
   color: #f9faf8;
   align-self: start;
+  font-size: 24px;
 }
 
 .Links {
+  display: flex;
+  justify-content: flex-end;
   list-style: none;
-  color: #f9faf8;
+  color: #e5e7eb;
   align-self: end;
+  font-size: 18px;
+  gap: 20px;
+}
+
+.Subtitles {
+  margin: auto;
+  display: flex;
+  flex: auto;
+  max-width: 1200px;
+  flex-direction: row;
+  padding: 30px 0 100px 20px;
+  align-items: center;
+  gap: 20px;
 }
 
 .Section1.SubtitlesText {
   font-style: extra-bold;
+  flex-direction: column;
+  flex: 1;
+}
+
+.SubtitlesText h1 {
   font-size: 48px;
   color: #f9faf8;
+  margin: 0;
+}
+
+.SubtitlesText p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.SubtitlesText button {
+  background-color: #3882f6;
+  color: white;
 }
 
 .footer {
