@@ -1,0 +1,32 @@
+.Section1,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.Subtitles {
+}
+
+.Hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #f9faf8;
+  align-self: start;
+}
+
+.Links {
+  list-style: none;
+  color: #f9faf8;
+  align-self: end;
+}
+
+.Section1.SubtitlesText {
+  font-style: extra-bold;
+  font-size: 48px;
+  color: #f9faf8;
+}
