@@ -88,6 +88,23 @@
 
 /* This is Section2 stuff */
 /* The random information is packed in here */
+.Section2 {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Boxes {
+  flex-direction: row;
+}
+
+.Box1,
+.Box2,
+.Box3,
+.Box4 {
+  border-radius: 4px;
+}
 
 /* This is Section 3 Stuff */
 /* The Quote lies here */
