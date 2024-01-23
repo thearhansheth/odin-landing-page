@@ -4,6 +4,14 @@
 }
 
 .Section1,
+.Section2,
+.Section3,
+.Section4,
+.footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Section1,
 .footer {
   background-color: #1f2937;
   color: #f9faf8;
@@ -14,25 +22,26 @@
   flex: auto;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   padding: 0 20px;
   margin: auto;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .logo {
   color: #f9faf8;
-  align-self: start;
-  font-size: 24px;
+  align-items: flex-start;
+  font-size: 18px;
 }
 
 .Links {
   display: flex;
+  flex: auto;
   justify-content: flex-end;
-  list-style: none;
+  align-items: center;
   color: #e5e7eb;
-  align-self: end;
-  font-size: 18px;
-  gap: 20px;
+  font-size: 14px;
+  gap: 16px;
 }
 
 .Subtitles {
@@ -53,19 +62,54 @@
 }
 
 .SubtitlesText h1 {
-  font-size: 48px;
+  font-size: 36px;
   color: #f9faf8;
   margin: 0;
 }
 
 .SubtitlesText p {
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .SubtitlesText button {
   background-color: #3882f6;
   color: white;
+  border-radius: 4px;
+}
+
+.SubtitlesPicture {
+  padding: 10px;
+}
+
+/* This is section4 stuff */
+/* The sign up sheet */
+.Section4 {
+  background-color: #3882f6;
+  border-radius: 4px;
+  margin: 25px;
+  color: #e5e7eb;
+  display: flex;
+  flex: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Section4 h5 {
+  font-size: 16px;
+  margin: 20px;
+}
+
+.Section4 p {
+  font-size: 14px;
+  margin: 20px;
+}
+
+.Section4 button {
+  border-radius: 4px;
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  color: #e5e7eb;
 }
 
 .footer {
