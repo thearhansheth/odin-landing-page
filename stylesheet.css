@@ -106,6 +106,10 @@
   border-radius: 4px;
 }
 
+.Pictures {
+  height: 100px;
+  width: 100px;
+}
 /* This is Section 3 Stuff */
 /* The Quote lies here */
 .Section3 {
