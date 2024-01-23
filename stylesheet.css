@@ -76,6 +76,7 @@
   background-color: #3882f6;
   color: white;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .SubtitlesPicture {
@@ -110,6 +111,7 @@
   background-color: #3882f6;
   border-color: #e5e7eb;
   color: #e5e7eb;
+  cursor: pointer;
 }
 
 .footer {
