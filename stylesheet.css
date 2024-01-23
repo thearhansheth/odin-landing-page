@@ -1,3 +1,4 @@
+/* This are the styles for the entire page in general */
 .container {
   flex-direction: column;
   margin: auto;
@@ -11,6 +12,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* This is Section 1 stuff */
+/* This is all for the hero and the part */
 .Section1,
 .footer {
   background-color: #1f2937;
@@ -83,16 +86,43 @@
   padding: 10px;
 }
 
+/* This is Section2 stuff */
+/* The random information is packed in here */
+
+/* This is Section 3 Stuff */
+/* The Quote lies here */
+.Section3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.Quote {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 20px;
+  align-items: center;
+  margin: 14px;
+}
+
+.Author {
+  font-weight: bold;
+  font-size: 14px;
+  align-self: last baseline;
+}
+
 /* This is section4 stuff */
 /* The sign up sheet */
 .Section4 {
   background-color: #3882f6;
   border-radius: 4px;
-  margin: 25px;
+  margin: 50px;
   color: #e5e7eb;
   display: flex;
   flex: auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
