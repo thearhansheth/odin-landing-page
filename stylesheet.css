@@ -121,11 +121,8 @@
   width: 115px;
 }
 
-.Desc1,
-.Desc2,
-.Desc3,
-.Desc4 {
-  align-items: center;
+.Descs {
+  text-align: center;
 }
 /* This is Section 3 Stuff */
 /* The Quote lies here */
